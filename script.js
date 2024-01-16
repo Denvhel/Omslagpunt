@@ -1,5 +1,7 @@
-function convertToVariable() {
-    let aanschaf1 = document.getElementById("aanschaf1");
-}
+let geheimeVraag = prompt("Vul het geheime wachtwoord in");
 
-console.log(aanschaf1);
+if (geheimeVraag == "Koekenbakker") {
+    alert("Goed! Treed binnen!");
+}   else {
+    alert("Helaas, geen toegang!");
+}
